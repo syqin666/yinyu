@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "createdAt": 1784958216505,
+  "importedWords": [],
+  "groups": {
+    "Unit 1（Word List 05）#1": {
+      "id": "Unit 1（Word List 05）#1",
+      "learned": true,
+      "learn": {
+        "cards": true,
+        "cnEn": true,
+        "enCn": true,
+        "summary": true,
+        "immediate": true
+      },
+      "reviewNode": "12小时",
+      "nextDue": 1785001416505,
+      "cnEnStreak": 0,
+      "enCnStreak": 0,
+      "lastReviewed": 1784958216505
+    },
+    "Unit 1（Word List 05）#2": {
+      "id": "Unit 1（Word List 05）#2",
+      "learned": true,
+      "learn": {
+        "cards": true,
+        "cnEn": true,
+        "enCn": true,
+        "summary": true,
+        "immediate": true
+      },
+      "reviewNode": "12小时",
+      "nextDue": 1785001416505,
+      "cnEnStreak": 0,
+      "enCnStreak": 0,
+      "lastReviewed": 1784958216505
+    },
+    "Unit 1（Word List 05）#3": {
+      "id": "Unit 1（Word List 05）#3",
+      "learned": true,
+      "learn": {
+        "cards": true,
+        "cnEn": true,
+        "enCn": true,
+        "summary": true,
+        "immediate": true
+      },
+      "reviewNode": "12小时",
+      "nextDue": 1785001416505,
+      "cnEnStreak": 0,
+      "enCnStreak": 0,
+      "lastReviewed": 1784958216505
+    },
+    "Unit 1（Word List 05）#4": {
+      "id": "Unit 1（Word List 05）#4",
+      "learned": true,
+      "learn": {
+        "cards": true,
+        "cnEn": true,
+        "enCn": true,
+        "summary": true,
+        "immediate": true
+      },
+      "reviewNode": "12小时",
+      "nextDue": 1785001416505,
+      "cnEnStreak": 0,
+      "enCnStreak": 0,
+      "lastReviewed": 1784958216505
+    },
+    "Unit 1（Word List 05）#5": {
+      "id": "Unit 1（Word List 05）#5",
+      "learned": true,
+      "learn": {
+        "cards": true,
+        "cnEn": true,
+        "enCn": true,
+        "summary": true,
+        "immediate": true
+      },
+      "reviewNode": "30分钟",
+      "nextDue": 1784960016505,
+      "cnEnStreak": 0,
+      "enCnStreak": 0,
+      "lastReviewed": 1784958216505
+    },
+    "Unit 1（Word List 05）#6": {
+      "id": "Unit 1（Word List 05）#6",
+      "learned": true,
+      "learn": {
+        "cards": true,
+        "cnEn": true,
+        "enCn": true,
+        "summary": true,
+        "immediate": true
+      },
+      "reviewNode": "30分钟",
+      "nextDue": 1784960016505,
+      "cnEnStreak": 0,
+      "enCnStreak": 0,
+      "lastReviewed": 1784958216505
+    },
+    "Unit 1（Word List 05）#7": {
+      "id": "Unit 1（Word List 05）#7",
+      "learned": true,
+      "learn": {
+        "cards": true,
+        "cnEn": true,
+        "enCn": true,
+        "summary": true,
+        "immediate": true
+      },
+      "reviewNode": "30分钟",
+      "nextDue": 1784960016505,
+      "cnEnStreak": 0,
+      "enCnStreak": 0,
+      "lastReviewed": 1784958216505
+    },
+    "Unit 1（Word List 05）#8": {
+      "id": "Unit 1（Word List 05）#8",
+      "learned": true,
+      "learn": {
+        "cards": true,
+        "cnEn": true,
+        "enCn": true,
+        "summary": true,
+        "immediate": true
+      },
+      "reviewNode": "30分钟",
+      "nextDue": 1784960016505,
+      "cnEnStreak": 0,
+      "enCnStreak": 0,
+      "lastReviewed": 1784958216505
+    }
+  }
+}
