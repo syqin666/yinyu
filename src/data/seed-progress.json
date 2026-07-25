@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "createdAt": 1784958216505,
+  "createdAt": 1784963179961,
   "importedWords": [],
   "groups": {
     "Unit 1（Word List 05）#1": {
@@ -14,10 +14,10 @@
         "immediate": true
       },
       "reviewNode": "12小时",
-      "nextDue": 1785001416505,
+      "nextDue": 1785006379961,
       "cnEnStreak": 0,
       "enCnStreak": 0,
-      "lastReviewed": 1784958216505
+      "lastReviewed": 1784963179961
     },
     "Unit 1（Word List 05）#2": {
       "id": "Unit 1（Word List 05）#2",
@@ -30,10 +30,10 @@
         "immediate": true
       },
       "reviewNode": "12小时",
-      "nextDue": 1785001416505,
+      "nextDue": 1785006379961,
       "cnEnStreak": 0,
       "enCnStreak": 0,
-      "lastReviewed": 1784958216505
+      "lastReviewed": 1784963179961
     },
     "Unit 1（Word List 05）#3": {
       "id": "Unit 1（Word List 05）#3",
@@ -46,10 +46,10 @@
         "immediate": true
       },
       "reviewNode": "12小时",
-      "nextDue": 1785001416505,
+      "nextDue": 1785006379961,
       "cnEnStreak": 0,
       "enCnStreak": 0,
-      "lastReviewed": 1784958216505
+      "lastReviewed": 1784963179961
     },
     "Unit 1（Word List 05）#4": {
       "id": "Unit 1（Word List 05）#4",
@@ -62,10 +62,10 @@
         "immediate": true
       },
       "reviewNode": "12小时",
-      "nextDue": 1785001416505,
+      "nextDue": 1785006379961,
       "cnEnStreak": 0,
       "enCnStreak": 0,
-      "lastReviewed": 1784958216505
+      "lastReviewed": 1784963179961
     },
     "Unit 1（Word List 05）#5": {
       "id": "Unit 1（Word List 05）#5",
@@ -77,11 +77,11 @@
         "summary": true,
         "immediate": true
       },
-      "reviewNode": "30分钟",
-      "nextDue": 1784960016505,
+      "reviewNode": "12小时",
+      "nextDue": 1785006379961,
       "cnEnStreak": 0,
       "enCnStreak": 0,
-      "lastReviewed": 1784958216505
+      "lastReviewed": 1784963179961
     },
     "Unit 1（Word List 05）#6": {
       "id": "Unit 1（Word List 05）#6",
@@ -93,11 +93,11 @@
         "summary": true,
         "immediate": true
       },
-      "reviewNode": "30分钟",
-      "nextDue": 1784960016505,
+      "reviewNode": "12小时",
+      "nextDue": 1785006379961,
       "cnEnStreak": 0,
       "enCnStreak": 0,
-      "lastReviewed": 1784958216505
+      "lastReviewed": 1784963179961
     },
     "Unit 1（Word List 05）#7": {
       "id": "Unit 1（Word List 05）#7",
@@ -109,11 +109,11 @@
         "summary": true,
         "immediate": true
       },
-      "reviewNode": "30分钟",
-      "nextDue": 1784960016505,
+      "reviewNode": "12小时",
+      "nextDue": 1785006379961,
       "cnEnStreak": 0,
       "enCnStreak": 0,
-      "lastReviewed": 1784958216505
+      "lastReviewed": 1784963179961
     },
     "Unit 1（Word List 05）#8": {
       "id": "Unit 1（Word List 05）#8",
@@ -125,11 +125,11 @@
         "summary": true,
         "immediate": true
       },
-      "reviewNode": "30分钟",
-      "nextDue": 1784960016505,
+      "reviewNode": "12小时",
+      "nextDue": 1785006379961,
       "cnEnStreak": 0,
       "enCnStreak": 0,
-      "lastReviewed": 1784958216505
+      "lastReviewed": 1784963179961
     }
   }
 }

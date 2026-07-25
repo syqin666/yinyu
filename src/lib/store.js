@@ -71,11 +71,27 @@ export function newState() {
   return { version: 1, createdAt: Date.now(), importedWords: [], groups }
 }
 
+// 以文件 createdAt 为基准，将 nextDue 还原为「相对当前时刻」的偏移，
+// 避免种子/导入进度在若干天后加载时全部过期变成「待复习」。
+function rebaseFrom(state, baseTime) {
+  const base = baseTime || Date.now()
+  const now = Date.now()
+  const groups = {}
+  for (const [id, g] of Object.entries(state.groups)) {
+    const offset = g.nextDue != null ? g.nextDue - base : 0
+    groups[id] = { ...g, nextDue: g.nextDue == null ? null : now + offset }
+  }
+  return { ...state, groups }
+}
+
 export function loadState() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
     // 首次打开（无本地进度）时，载入已迁移的用户进度作为初始态
-    if (!raw) return importState(JSON.stringify(seedProgress))
+    if (!raw) {
+      const seeded = importState(JSON.stringify(seedProgress))
+      return rebaseFrom(seeded, seedProgress.createdAt)
+    }
     const parsed = JSON.parse(raw)
     const base = newState()
     const merged = {
@@ -112,8 +128,12 @@ export function exportState(state) {
 }
 
 // 进度恢复：校验 + 以 newState() 为基线补全分组进度
+// 导入时同样按文件 createdAt 做偏移重排，保证「下次复习」相对当前时刻而非写死绝对时间
 export function importState(json) {
-  return ensureGroups(importProgressRaw(json, newState()))
+  const parsed = typeof json === 'string' ? JSON.parse(json) : json
+  const merged = importProgressRaw(json, newState())
+  const ref = parsed.createdAt || Date.now()
+  return ensureGroups(rebaseFrom(merged, ref))
 }
 
 // 全局 React hook
